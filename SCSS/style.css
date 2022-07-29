@@ -223,8 +223,35 @@
 .filter-container .filter-container-1 p {
   margin-left: 20px;
 }
+.filter-container .filter-container-1 .filter-text-1 {
+  display: flex;
+}
 .filter-container .filter-container-2 {
   display: flex;
+  justify-content: space-between;
+  padding: 11px 16px;
+  width: 151px;
+  height: 42px;
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+}
+.filter-container .filter-container-2 p {
+  margin-left: 10px;
+}
+.filter-container .filter-container-2 .filter-text-1 {
+  display: flex;
+}
+.filter-container .filter-container-2 .filter-text-2 {
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid #EBEBEB;
+  border-radius: 12px;
+  align-items: center;
 }
 .filter-container .filter-container-3 {
   display: flex;
