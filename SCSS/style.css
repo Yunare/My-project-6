@@ -227,6 +227,7 @@
   display: flex;
 }
 .filter-container .filter-container-2 {
+  margin-left: 15px;
   display: flex;
   justify-content: space-between;
   padding: 11px 16px;
@@ -253,11 +254,173 @@
   border-radius: 12px;
   align-items: center;
 }
-.filter-container .filter-container-3 {
+.filter-container .filter-container-4 {
+  padding: 11px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  width: 235px;
+  height: 42px;
+  align-items: center;
+  background: #F9F9F9;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
   display: flex;
 }
-.filter-container .filter-container-4 {
+.filter-container .filter-container-4 .filter-text-1 {
   display: flex;
+}
+.filter-container .filter-container-4 .filter-text-1 label {
+  margin-left: 10px;
+}
+.filter-container .filter-container-4 p {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.filter-container .filter-container-4 .filter-text-2 {
+  display: flex;
+  width: 28px;
+  height: 18px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  align-items: center;
+}
+.filter-container .filter-container-4 .filter-text-3 {
+  border-left: 1px solid #D1D1D1;
+}
+.filter-container .filter-container-4 .filter-text-3 select {
+  margin-left: 24px;
+  border: none;
+  background: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.applied-filtres {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.applied-filtres .fpplied-filter {
+  text-align: center;
+  align-items: center;
+  color: #A9A9A9;
+}
+.applied-filtres .show-felters-1 {
+  margin-left: 12px;
+  padding: 0px 8px;
+  color: #6A983C;
+  background: #F4F8EC;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.container-categories {
+  display: flex;
+  flex-direction: column;
+}
+.container-categories h3 {
+  margin-top: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.container-categories .categories-blocks {
+  display: flex;
+  flex-direction: column;
+}
+.container-categories .categories-blocks .category-container {
+  display: flex;
+}
+.container-categories .categories-blocks .category-container .category-name {
+  margin-top: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.container-categories .categories-blocks .category-container .category-value {
+  margin-left: 138px;
+  margin-top: 12px;
+  align-items: center;
+  text-align: center;
+  width: 38px;
+  height: 18px;
+  background: #F4F8EC;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+}
+.container-categories .container-brands .brend-filter-name {
+  margin-top: 17px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.container-categories .container-brands .brend-filter-name label {
+  margin-left: 10px;
+}
+.container-categories .container-rating .grade-block-star {
+  margin-top: 16px;
+  margin-left: 12px;
+  display: flex;
+}
+.container-categories .container-apply {
+  display: flex;
+  align-items: center;
+}
+.container-categories .container-apply .btn-main {
+  width: 78px;
+  height: 48px;
+  background: #6A983C;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  padding: 12px 16px;
+}
+.container-categories .container-apply .btn-reset {
+  margin-left: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #A9A9A9;
+  align-items: center;
 }
 
 .card-product {
@@ -401,4 +564,110 @@
   font-size: 15px;
   line-height: 22px;
   color: #151515;
+}
+
+.pagination-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #A9A9A9;
+}
+.pagination-container .pagination-container-block-1 {
+  display: flex;
+}
+.pagination-container .pagination-container-block-2 {
+  display: flex;
+}
+.pagination-container .page {
+  align-items: center;
+}
+.pagination-container .btn-main {
+  align-items: center;
+  padding: 12px 16px;
+  background: #6A983C;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+.pagination-container .amount-product-1 {
+  height: 18px;
+  margin-left: 12px;
+  padding: 0px 8px;
+  color: #6A983C;
+  background: #F4F8EC;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.footer-col {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-col .name-col-footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.footer-col .link-footer {
+  text-decoration: none !important;
+  margin-top: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6A983C !important;
+}
+
+.product-tags-container .product-tags-header {
+  margin-top: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.product-tags-container .tags-product {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.product-tags-container .tags-product .tag {
+  margin-right: 16px;
+  margin-top: 5px;
+  padding: 4px 10px;
+  align-items: center;
+  text-align: center;
+  background: #F5F5F5;
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.bottom-footer {
+  margin-top: 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }/*# sourceMappingURL=style.css.map */
